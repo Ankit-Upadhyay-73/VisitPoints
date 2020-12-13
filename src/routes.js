@@ -1188,6 +1188,7 @@ import Zira from './components/india/Zira'
 import Zirakpur from './components/india/Zirakpur'
 import Zunheboto from './components/india/Zunheboto'
 import home from "./components/home";
+import page_not_found from "@/components/india/page_not_found";
 export default [
     {path:'/',component:home},
     {path:'/places/Achalpur',component:Achalpur},
@@ -2379,6 +2380,7 @@ export default [
     {path:'/places/Zira',component:Zira},
     {path:'/places/Zirakpur',component:Zirakpur},
     {path:'/places/Zunheboto',component:Zunheboto},
+    {path:'*',component:page_not_found}
 ]
 
 
